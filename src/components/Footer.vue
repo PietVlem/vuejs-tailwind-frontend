@@ -1,21 +1,21 @@
 <template>
-  <div>
-    <div class="bg-brown-500 py-16">
-      <div class="container mx-auto flex items-center">
-        <div class="flex-1 newsletter">
-          <Span class="block text-white text-2xl mb-3">Op de hoogte blijven van het project?</Span>
-          <p class="text-white mb-5">Ontvang de nieuwsbrief met milestones en ander nieuws.</p>
-          <div class="inputfield-wrapper">
+  <div class="footer">
+    <div class="footer__wrapper">
+      <div class="container footer__content">
+        <div class="footer__newsletter">
+          <Span class="footer__newsletter-title">Op de hoogte blijven van het project?</Span>
+          <p class="footer__newsletter-info">Ontvang de nieuwsbrief met milestones en ander nieuws.</p>
+          <div class="footer__newsletter-inputfield-wrapper">
             <input class="placeholder-white" type="text" placeholder="Mijn e-mailadres" />
-            <button class="text-red">stap 1/3 -></button>
+            <button>stap 1/3 -></button>
           </div>
         </div>
-        <div class="flex-1">
+        <div class="footer__img">
           <img class="mx-auto" alt src="../assets/images/footer-logo-big.png" />
         </div>
-        <div class="flex-1">
-          <div class="flex">
-            <div class="flex-1">
+        <div class="footer__nav">
+          <div class="footer__nav-content">
+            <div class="">
               <ul class="footer-menu">
                 <li>Het chocolademagazijn</li>
                 <li>Duurzaamheid</li>
@@ -23,14 +23,14 @@
                 <li>Partners</li>
               </ul>
             </div>
-            <div class="flex-1">
+            <div class="">
               <ul class="footer-menu">
                 <li>Wim interviewt</li>
                 <li>Nieuws</li>
                 <li>Pers</li>
               </ul>
             </div>
-            <div class="flex-1">
+            <div class="">
               <ul class="footer-menu">
                 <li>Jobs</li>
                 <li>Contact</li>

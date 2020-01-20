@@ -16,7 +16,9 @@
         <a class="info-button" href="#">
           <div class="flex">
             <p class="mr-6">Ontdek het verhaal</p>
-            <img alt src="../assets/images/arrow.png" />
+            <div>
+              <img class="p-3" alt src="../assets/images/arrow2.png" />
+            </div>
           </div>
           </a>
       </div>

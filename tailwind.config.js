@@ -13,6 +13,7 @@ module.exports = {
         orange:{
           '100': '#FCF9F6',
           '300': '#FDF3EB',
+          '400': '#FFE6D0',
           '500': '#EE730A',
         } 
       }
@@ -25,7 +26,7 @@ module.exports = {
       'nm': '1000px',
       'lg': '1150px',
       'nav': '1340px',
-      'xl': '1515px'
+      'xl': '1650px'
     }
   },
   corePlugins: {},
