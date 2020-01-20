@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* text */
+h2{
+    @apply text-3xl font-bold mb-6;
+}
+h3{
+    @apply text-2xl font-bold mb-6;
+}
+.default-link{
+    @apply inline-block mt-4 text-red border-b-2 border-red;
+}
+
+/* components */
+.info-button{
+    border-radius: 50px;
+    @apply inline-block border border-solid border-orange-300 p-4 mt-4;
+}
+
+/* info */
+.top-neg150{
+    top: -150px;
+}
+
+/* Header */
+.nav__logo{
+    @apply flex items-center flex-shrink-0 px-16 py-16 absolute bg-white rounded-full -ml-8 -mt-8;
+}
+
+.nav__main-menu{
+    @apply flex justify-between flex-wrap;
+}
+
+.nav__main-items-wrapper{
+    @apply block flex-grow flex w-auto mt-12 items-end mb-12;
+}
+
+.nav__main-menu-items{
+    padding-left: 375px;
+    @apply text-sm flex-grow;
+}
+
+.nav__main-menu-items a, .nav__side-items-wrapper a{
+    @apply block mt-4 inline-block mt-0 mr-8 text-base;
+}
+
+.nav__main-menu-items a:hover, .nav__side-items-wrapper a:hover{
+    @apply text-orange-300;
+}
+
+.nav__side-menu{
+    @apply flex;
+}
+
+.nav__side-items-wrapper{
+    @apply flex items-end;
+}
+
+/* movie */
+.wim-interview{
+    top: -150px;
+    left: -150px;
+}
+
+/* Footer */
+.inputfield-wrapper{
+    border-radius: 50px;
+    @apply inline-block bg-brown-100 px-1 py-1 border border-solid border-white;
+}
+
+.inputfield-wrapper input{
+    @apply bg-transparent px-6;
+}
+
+.inputfield-wrapper button{
+    border-radius: 50px;
+    @apply bg-white px-6 py-1;
+}
+
+.footer-menu li{
+    @apply text-white mb-3;
+}
+
+.bottom-footer-links a{
+    @apply inline-block text-brown-500 mb-3 mt-3 mr-5;
+}
+
+.author{
+    @apply mb-3 mt-3 justify-end;
+}
+
+.author p{
+    @apply mr-3;
+}
+
+/* sidebar */
+.sidebar{
+    @apply pt-48;
+}
+
+.sidebar img{
+    @apply block ml-8 mr-8 mb-8;
+}
