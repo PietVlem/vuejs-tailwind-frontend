@@ -4,18 +4,27 @@
 
 /* text */
 h2{
-    @apply text-3xl font-bold mb-6;
+    @apply text-4xl font-bold mb-6;
 }
 h3{
-    @apply text-2xl font-bold mb-6;
+    @apply text-3xl font-bold mb-6;
 }
 .default-link{
     @apply inline-block mt-4 text-red border-b-2 border-red;
 }
 
+/* Helpers */
+.pl-105{
+    padding-left: 105px;
+}
+
+.pr-105{
+    padding-right: 105px;
+}
+
 /* components */
 .info-button{
-    @apply inline-block border border-solid border-orange-500 px-4 py-2 mt-4 rounded-full;
+    @apply inline-block border border-solid border-orange-500 px-4 py-2 rounded-full;
 }
 
 .info-button p{
@@ -36,6 +45,10 @@ h3{
 }
 
 /* Header */
+.header-block{
+    width: calc(100% - 105px);
+}
+
 .nav__logo{
     @apply flex items-center flex-shrink-0 px-16 py-16 absolute bg-white rounded-full -ml-8 -mt-8;
 }
@@ -116,7 +129,7 @@ h3{
 }
 
 .timeline-block__heading{
-    @apply flex;
+    @apply flex mb-16;
 }
 
 .timeline-block__tl-head{
@@ -171,13 +184,12 @@ h3{
 }
 
 .timeline-block__tl-info > div a{
-    @apply table m-auto bg-white rounded-full p-3;
+    @apply table m-auto bg-white rounded-full p-3 mt-4;
 }
 
-.timeline-block__tl-info > div img{
-    @apply block m-auto;
+.timeline-block__tl-info > div > img{
+    @apply block m-auto mt-8 mb-8;
 }
-
 
 /* Footer */
 .footer__wrapper{
@@ -252,6 +264,10 @@ h3{
 
 /* sidebar */
 .sidebar{
+    /* position: sticky; */
+    margin-top: -100vh;
+    float: right;
+    z-index: 10;
     @apply h-screen sticky top-0 bg-transparent flex items-center;
 }
 

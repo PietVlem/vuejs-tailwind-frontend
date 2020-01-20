@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="header-block">
     <Navigation />
     <img class="w-full" alt="Vue logo" src="../assets/images/header-image.png">
   </div>

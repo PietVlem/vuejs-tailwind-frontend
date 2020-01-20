@@ -2,8 +2,19 @@
   <div class="timeline-block">
     <div class="timeline-block__content container">
       <div class="timeline-block__heading">
-        <h3 class="flex-1">Verloop van de werken</h3>
-        <a class="flex-1" href="#">Bekijk alle milestones</a>
+        <div class="flex-1">
+          <h3>Verloop van de werken</h3>
+        </div>
+        <div class="flex-1">
+          <a class="info-button float-right" href="#">
+            <div class="flex">
+              <p class="mr-6">Bekijk alle milestones</p>
+              <div>
+                <img class="p-3" alt src="../assets/images/arrow2.png" />
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
       <div class="timeline-block__tl-wrapper">
         <div class="timeline-block__tl-head">
