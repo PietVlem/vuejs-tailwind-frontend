@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-lorange">
+  <div class="bg-orange-300">
     <div class="container m-auto py-32">
       <div class="flex">
         <h3 class="flex-1">Verloop van de werken</h3>

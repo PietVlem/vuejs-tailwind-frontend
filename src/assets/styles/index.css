@@ -58,11 +58,39 @@ h3{
     @apply flex items-end;
 }
 
-/* movie */
-.wim-interview{
-    top: -150px;
-    left: -150px;
+/* info-block */
+.info-block{
+    @apply flex bg-orange-100;
 }
+
+.info-block__left{
+    @apply flex-1 py-16 px-16 bg-white;
+}
+
+.info-block__right{
+    @apply flex-1 py-16 px-16 relative bg-orange-100 top-neg150;
+}
+
+/* movie */
+.movie-block{
+    @apply m-auto table relative;
+}
+
+.movie-block::after{
+    content: " ";
+    top: 0;
+    right: 0;
+    @apply absolute w-1/2 h-full bg-orange-100;
+}
+
+.movie-block__content{
+    @apply w-1/2 m-auto mb-32 mt-64 relative z-10;
+}
+
+.movie-block__image{
+    @apply absolute -mt-48 -ml-48;
+}
+
 
 /* Footer */
 .inputfield-wrapper{
@@ -97,7 +125,7 @@ h3{
 
 /* sidebar */
 .sidebar{
-    @apply pt-48;
+    @apply pt-48 h-screen sticky top-0 bg-transparent;
 }
 
 .sidebar img{

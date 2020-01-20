@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar h-screen sticky top-0">
+  <div class="sidebar">
     <img alt src="../assets/images/insta.png" />
     <img alt src="../assets/images/fb.png" />
     <img alt src="../assets/images/mail.png" />

@@ -1,6 +1,6 @@
 <template>
-  <div class="flex">
-      <div class="flex-1 py-16 px-16">
+  <div class="info-block">
+      <div class="info-block__left">
         <h2>
           Het grootste chocolademagazijn?
           <br />Dat komt in Lokeren!
@@ -10,7 +10,7 @@
         </p>
         <a href="#" class="default-link">Veelgestelde vragen</a>
       </div>
-      <div class="flex-1 py-16 px-16 relative bg-white top-neg150">
+      <div class="info-block__right">
         <h2>60.000m² chocolade!</h2>
         <p>Of er tegen eind 2021 ook Oempa Loempa’s en golden tickets in Lokeren te vinden zullen zijn,blijft nog een vraagteken. Wél zeker is dat Barry Callebaut, ‘s werelds grootste fabrikant van chocoladeproducten, er een nieuw Global Distribution Centre gaat bouwen samen met WDP. </p>
         <a class="info-button" href="#">

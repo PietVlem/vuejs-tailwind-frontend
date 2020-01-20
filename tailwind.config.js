@@ -11,8 +11,9 @@ module.exports = {
         },
         red: '#E30A21',
         orange:{
-          '100': '#FDF3EB',
-          '300': '#EE730A'
+          '100': '#FCF9F6',
+          '300': '#FDF3EB',
+          '500': '#EE730A',
         } 
       }
     },

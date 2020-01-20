@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-brown py-16">
+    <div class="bg-brown-500 py-16">
       <div class="container mx-auto flex items-center">
         <div class="flex-1 newsletter">
           <Span class="block text-white text-2xl mb-3">Op de hoogte blijven van het project?</Span>
