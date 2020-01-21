@@ -12,7 +12,10 @@
           >Het nieuwe Global Distribution Centre zal dienen als Belgische logistieke hub voor de wereldwijde distributie chocolade van Barry Callebaut. Dit gebeurde tot op heden op verschillende locaties in de regio Aalst.</p>
           <a href="#" class="default-link">Veelgestelde vragen</a>
         </div>
-        <img alt src="../assets/images/work.png" />
+        <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600" class="info-block__middle-div">
+          <span>WDP GAAT VOOR <br> BREAAM CERTIFICAAT <br> OUTSTANDING.</span>
+        </div>
+        <img data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="600" alt src="../assets/images/work.png" />
       </div>
     </div>
     <div class="info-block__right">
@@ -31,7 +34,7 @@
             </div>
           </a>
         </div>
-        <img alt src="../assets/images/choco-girl.png" />
+        <img data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="600" alt src="../assets/images/choco-girl.png" />
       </div>
     </div>
   </div>

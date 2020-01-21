@@ -1,11 +1,12 @@
 <template>
   <div class="w-full">
     <div class="w-full">
+      <!-- <Test /> -->
       <Sidebar />
       <Header />
       <Info />
       <Movie />
-      <Timeline />
+      <Timeline/>
     </div>
     <Footer />
   </div>
@@ -19,6 +20,8 @@ import Movie from "./components/Movie";
 import Timeline from "./components/Timeline";
 import Sidebar from "./components/Sidebar";
 
+/* import Test from "./components/Test"; */
+
 export default {
   name: "app",
   components: {
@@ -27,7 +30,8 @@ export default {
     Sidebar,
     Info,
     Movie,
-    Timeline
+    Timeline,
+    /* Test */
   }
 };
 </script>
