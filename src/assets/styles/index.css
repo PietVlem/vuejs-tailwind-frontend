@@ -9,6 +9,9 @@ h2{
 h3{
     @apply text-3xl font-bold mb-6;
 }
+p{
+    @apply text-brown-500;
+}
 .default-link{
     @apply inline-block mt-4 text-red border-b-2 border-red;
 }
@@ -39,18 +42,19 @@ h3{
     @apply bg-orange-500 text-white;
 }
 
-/* info */
-.top-neg150{
-    top: -150px;
-}
-
 /* Header */
 .header-block{
     width: calc(100% - 105px);
 }
 
 .nav__logo{
-    @apply flex items-center flex-shrink-0 px-16 py-16 absolute bg-white rounded-full -ml-8 -mt-8;
+    width: 400px;
+    height: 400px;
+    @apply flex items-center flex-shrink-0 absolute bg-white rounded-full -ml-20 -mt-20;
+}
+
+.nav__logo img{
+    @apply relative mt-16 ml-24;
 }
 
 .nav__main-menu{
@@ -58,11 +62,11 @@ h3{
 }
 
 .nav__main-items-wrapper{
-    @apply block flex-grow flex w-auto mt-12 items-end mb-12;
+    @apply block flex-grow flex w-auto mt-12 items-end mb-8;
 }
 
 .nav__main-menu-items{
-    padding-left: 375px;
+    padding-left: 325px;
     @apply text-sm flex-grow;
 }
 
@@ -71,7 +75,7 @@ h3{
 }
 
 .nav__main-menu-items a:hover, .nav__side-items-wrapper a:hover{
-    @apply text-orange-300;
+    @apply text-orange-500;
 }
 
 .nav__side-menu{
@@ -91,8 +95,18 @@ h3{
     @apply flex-1 py-16 px-16 bg-white;
 }
 
+.info-block__left>div>img{
+    width: 55%;
+    @apply mt-48 absolute z-10;
+}
+
 .info-block__right{
-    @apply flex-1 py-16 px-16 relative bg-orange-100 top-neg150;
+    margin-top: -300px;
+    @apply flex-1 py-16 px-16 relative bg-orange-100;
+}
+
+.info-block__right>div>img{
+    @apply mt-48 relative z-20;
 }
 
 /* movie */

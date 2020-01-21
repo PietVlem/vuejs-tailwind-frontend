@@ -1,13 +1,6 @@
 <template>
   <div class="w-full">
     <div class="w-full">
-      <!-- <div class="flex-1">
-        <Header />
-        <Info />
-        <Movie />
-        <Timeline />
-      </div>
-      <Sidebar />-->
       <Sidebar />
       <Header />
       <Info />

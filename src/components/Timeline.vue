@@ -1,6 +1,6 @@
 <template>
   <div class="timeline-block">
-    <div class="timeline-block__content container">
+    <div class="timeline-block__content container px-16">
       <div class="timeline-block__heading">
         <div class="flex-1">
           <h3>Verloop van de werken</h3>
